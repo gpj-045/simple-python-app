@@ -2,7 +2,7 @@
 set -e
 echo "ValidateService: checking health endpoint..."
 
-URL="http://44.223.34.227:5000/health"
+URL="http://44.223.34.227:5000/"
 
 for i in {1..10}; do
   if curl -sSf "$URL" >/dev/null 2>&1; then
