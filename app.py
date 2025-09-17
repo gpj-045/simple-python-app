@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def display():
-    message = "Hello, this is your display page!"
+    message = "Welcome gpj045!"
     return render_template('display.html', message=message)
 
 if __name__ == '__main__':
